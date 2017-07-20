@@ -26,3 +26,7 @@ sudo apt install -y docker-ce
 pip3 install --upgrade pip
 
 pip install --user docker
+
+sudo usermod -aG docker $USER
+
+sudo reboot
